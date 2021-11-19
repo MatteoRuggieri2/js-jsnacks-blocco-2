@@ -5,10 +5,13 @@
 
 // chiedo numero all'utente
 const userNumber = parseInt(prompt('Dammi un numero'));
+let numberToPrint;
 
 // se è pari lo stampo altrimenti stampo il successivo
 if (userNumber % 2 === 0) {
-    alert(userNumber);
+    numberToPrint = userNumber;
+    alert(numberToPrint);
 } else {
-    alert (userNumber + 1)
+    numberToPrint = userNumber + 1;
+    alert (numberToPrint)
 }
