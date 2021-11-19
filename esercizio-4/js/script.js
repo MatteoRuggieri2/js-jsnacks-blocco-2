@@ -8,10 +8,6 @@
 let userNumbers = [];
 let somma = 0;
 
-
-
-
-
 while ( somma < 50 ) {
     const userSingleNumber = parseInt(prompt('Inserisci un numero'));
     console.log(userSingleNumber);
@@ -21,7 +17,7 @@ while ( somma < 50 ) {
         userNumbers.push(userSingleNumber);
         console.log(userNumbers);
         
-        somma += arraySingleNumber
+        somma += userSingleNumber
         console.log(somma);
         
     }
@@ -30,26 +26,3 @@ while ( somma < 50 ) {
 }
 
 console.log('Il risultato è: ' + somma)
-
-
-
-
-// Fatto con do while
-
-// chiedo all'utente numeri finchè la somma non arriva a 50.
-
-// do {
-//     const userSingleNumber = parseInt(prompt('Inserisci un numero'));
-//     userNumbers.push(userSingleNumber);
-//     console.log(userNumbers);
-
-//     for (let i = 0; i < userNumbers.length; i++) {
-//         const arraySingleNumber = userNumbers[i];
-//         console.log(arraySingleNumber);
-//         somma += arraySingleNumber
-//     }
-
-// } while ( somma <= 50);
-
-
-// inserisco i numeri dentro l'array
