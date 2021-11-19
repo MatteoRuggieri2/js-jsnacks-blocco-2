@@ -15,7 +15,7 @@ let somma = 0;
 while ( somma < 50 ) {
     const userSingleNumber = parseInt(prompt('Inserisci un numero'));
     console.log(userSingleNumber);
-    
+
     if (!isNaN(userSingleNumber)){
 
         userNumbers.push(userSingleNumber);
@@ -34,7 +34,7 @@ console.log('Il risultato è: ' + somma)
 
 
 
-
+// Fatto con do while
 
 // chiedo all'utente numeri finchè la somma non arriva a 50.
 
